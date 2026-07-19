@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://brocode-collective.github.io/sitemap.xml
+Sitemap: https://brocodecollective.vercel.app/sitemap.xml
