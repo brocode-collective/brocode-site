@@ -24,7 +24,7 @@ export default function Team() {
     <section className="w-full font-mono mt-8">
       <div className="flex items-center gap-2 mb-8">
         <span className="text-brand text-xl font-bold">&gt;</span>
-        <h2 className="text-xl text-white font-bold tracking-tight">Meet_The_Devs</h2>
+        <h2 className="text-x text-gray-500 font-bold tracking-tight">Meet_The_Devs</h2>
       </div>
       <div className="grid grid-cols-2 gap-10">
         {teamMembers.map((member, idx) => (
