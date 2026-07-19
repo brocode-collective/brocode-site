@@ -36,7 +36,7 @@ export default function Team() {
               className="w-28 h-28 rounded-lg object-cover"
             />
             <div>
-              <h3 className="text-lg text-white font-bold">&gt; {member.name}</h3>
+              <h3 className="text-lg text-gray-300 font-bold">&gt; {member.name}</h3>
               <p className="text-sm text-gray-500 mt-1">// {member.role}</p>
             </div>
             <div className="flex items-center gap-5">
