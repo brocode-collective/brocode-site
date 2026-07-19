@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className="text-lg md:text-xl font-mono font-bold tracking-tight text-gray-400">
           &gt; Bro Code Collective_
         </h1>
-        <a href="https://github.com/brocode-collective" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white transition-colors" aria-label="GitHub">
+        <a href="https://github.com/brocode-collective" target="_blank" rel="noreferrer" className="github-icon-blink transition-colors" aria-label="GitHub">
           <FiGithub size={18} />
         </a>
       </div>
