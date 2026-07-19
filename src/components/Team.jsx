@@ -24,7 +24,7 @@ export default function Team() {
     <section className="w-full font-mono mt-8">
       <div className="flex items-center gap-2 mb-8">
         <span className="text-brand text-xl font-bold">&gt;</span>
-        <h2 className="text-x text-gray-500 font-bold tracking-tight">Meet_The_Devs</h2>
+        <h2 className="text-x text-gray-500 font-bold tracking-tight">Meet The Devs_</h2>
       </div>
       <div className="grid grid-cols-2 gap-10">
         {teamMembers.map((member, idx) => (
@@ -36,7 +36,7 @@ export default function Team() {
               className="w-28 h-28 rounded-lg object-cover"
             />
             <div>
-              <h3 className="text-lg text-white font-bold">{member.name}</h3>
+              <h3 className="text-lg text-white font-bold">&gt; {member.name}</h3>
               <p className="text-sm text-gray-500 mt-1">// {member.role}</p>
             </div>
             <div className="flex items-center gap-5">
