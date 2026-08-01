@@ -47,7 +47,7 @@
 
   .github-icon-blink {
     color: #2ea043;
-    animation: github-icon-slow-blink 10s ease-in-out infinite;
+    animation: github-icon-slow-blink 3s ease-in-out infinite;
   }
 
   @keyframes github-icon-slow-blink {

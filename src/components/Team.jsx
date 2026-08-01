@@ -22,9 +22,9 @@ const teamMembers = [
 export default function Team() {
   return (
     <section className="w-full font-mono mt-8">
-      <div className="flex items-center gap-2 mb-8">
-        <span className="text-brand text-xl font-bold">&gt;</span>
-        <h2 className="text-x text-gray-500 font-bold tracking-tight">Meet The Devs_</h2>
+      <div className="flex items-center justify-start md:justify-center gap-2 mb-8">
+        <span className="text-gray-500 text-xs md:text-sm font-bold">&gt;</span>
+        <h2 className="text-xs md:text-sm text-gray-500 font-bold tracking-tight uppercase">Meet The Devs_</h2>
       </div>
       <div className="grid grid-cols-2 gap-10">
         {teamMembers.map((member, idx) => (
